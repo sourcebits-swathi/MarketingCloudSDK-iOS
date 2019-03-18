@@ -1,11 +1,8 @@
-
-    
-Pod::Spec.new do |s|
-  s.name = 'SalesforceSDK'
-  s.version = '1.0'
-  s.source = { :git => 'https://github.com/sourcebits-swathi/MarketingCloudSDK-iOS.git'}
-
-  s.ios.deployment_target = '10.0'
-  
-  
+Pod::Spec.new do |spec|
+  spec.name         = 'MarketingCloudSDK'
+  spec.version      = '6.1.4'
+  spec.license      = 'MIT'
+  spec.summary      = 'An Objective-C Code for MArketing Cloud SDK'
+  spec.author       = 'Swathi'
+  spec.source       = { :git => 'git://github.com/lukeredpath/libPusher.git', :tag => 'v6.1.4' }
 end
